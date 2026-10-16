@@ -41,7 +41,7 @@ class LLMProvider:
 
 class OpenAIProvider(LLMProvider):
     name = "OpenAI"
-    models = ["gpt-3.5-turbo", "gpt-4o-mini", "gpt-4o", "o1-mini", "o1-preview"]
+    models = ["gpt-3.5-turbo", "gpt-4o-mini", "gpt-4o", "o1-mini", "o1-preview", "gpt-6-luna"]
     default_model = "gpt-4o-mini"
 
 

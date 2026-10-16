@@ -874,5 +874,24 @@
       "short_description": "Exporteren als json"
     }
   },
-  "labels_count": "{count, plural, one {# label} other {# labels}}"
+  "labels_count": "{count, plural, one {# label} other {# labels}}",
+  "ai_chat": {
+    "open": "Plane AI openen",
+    "subtitle": "Werkitems beheren via chat",
+    "new_chat": "Nieuwe chat",
+    "empty_state": "Stel vragen over uw werkitems of vertel Plane AI wat er moet worden aangemaakt of gewijzigd.",
+    "placeholder": "Bericht aan Plane AI…",
+    "send": "Verzenden",
+    "thinking": "Bezig met nadenken…",
+    "error": "Plane AI kon niet reageren. Probeer het opnieuw.",
+    "suggestions": {
+      "my_open": "Welke werkitems staan nog open voor mij?",
+      "due_this_week": "Wat moet er deze week af?"
+    },
+    "actions": {
+      "created": "Aangemaakt",
+      "updated": "Bijgewerkt",
+      "commented": "Gereageerd"
+    }
+  }
 }

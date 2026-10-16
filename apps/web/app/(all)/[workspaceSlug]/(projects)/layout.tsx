@@ -6,6 +6,7 @@
 
 import { observer } from "mobx-react";
 import { Outlet } from "react-router";
+import { AIChatWidget } from "@/components/ai-chat/root";
 import { ProjectsAppPowerKProvider } from "@/components/power-k/projects-app-provider";
 // plane web components
 import { ProjectAppSidebar } from "./_sidebar";
@@ -25,6 +26,7 @@ function WorkspaceLayout() {
           </main>
         </div>
       </div>
+      <AIChatWidget />
     </>
   );
 }

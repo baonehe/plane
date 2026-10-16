@@ -874,5 +874,24 @@
       "short_description": "Export as json"
     }
   },
-  "labels_count": "{count, plural, one {# label} other {# labels}}"
+  "labels_count": "{count, plural, one {# label} other {# labels}}",
+  "ai_chat": {
+    "open": "Open Plane AI",
+    "subtitle": "Manage work items by chatting",
+    "new_chat": "New chat",
+    "empty_state": "Ask about your work items, or tell Plane AI what to create or change.",
+    "placeholder": "Message Plane AI…",
+    "send": "Send",
+    "thinking": "Thinking…",
+    "error": "Plane AI could not respond. Please try again.",
+    "suggestions": {
+      "my_open": "What are my open work items?",
+      "due_this_week": "What is due this week?"
+    },
+    "actions": {
+      "created": "Created",
+      "updated": "Updated",
+      "commented": "Commented"
+    }
+  }
 }

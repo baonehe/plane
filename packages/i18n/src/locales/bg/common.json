@@ -874,5 +874,24 @@
       "short_description": "Експортирай като JSON"
     }
   },
-  "labels_count": "{count, plural, one {# етикет} other {# етикета}}"
+  "labels_count": "{count, plural, one {# етикет} other {# етикета}}",
+  "ai_chat": {
+    "open": "Отвори Plane AI",
+    "subtitle": "Управлявайте работните елементи чрез чат",
+    "new_chat": "Нов чат",
+    "empty_state": "Попитайте за работните си елементи или кажете на Plane AI какво да създаде или промени.",
+    "placeholder": "Съобщение до Plane AI…",
+    "send": "Изпрати",
+    "thinking": "Обмисля…",
+    "error": "Plane AI не успя да отговори. Моля, опитайте отново.",
+    "suggestions": {
+      "my_open": "Кои са моите отворени работни елементи?",
+      "due_this_week": "Какво е с краен срок тази седмица?"
+    },
+    "actions": {
+      "created": "Създадено",
+      "updated": "Актуализирано",
+      "commented": "Коментирано"
+    }
+  }
 }

@@ -874,5 +874,24 @@
       "short_description": "JSONとしてエクスポート"
     }
   },
-  "labels_count": "{count, plural, one {#件のラベル} other {#件のラベル}}"
+  "labels_count": "{count, plural, one {#件のラベル} other {#件のラベル}}",
+  "ai_chat": {
+    "open": "Plane AIを開く",
+    "subtitle": "チャットで作業項目を管理",
+    "new_chat": "新しいチャット",
+    "empty_state": "作業項目について質問したり、作成・変更したい内容をPlane AIに伝えたりできます。",
+    "placeholder": "Plane AIにメッセージを送信…",
+    "send": "送信",
+    "thinking": "考え中…",
+    "error": "Plane AIが応答できませんでした。もう一度お試しください。",
+    "suggestions": {
+      "my_open": "未完了の自分の作業項目は何ですか？",
+      "due_this_week": "今週が期限の作業項目は何ですか？"
+    },
+    "actions": {
+      "created": "作成済み",
+      "updated": "更新済み",
+      "commented": "コメント済み"
+    }
+  }
 }

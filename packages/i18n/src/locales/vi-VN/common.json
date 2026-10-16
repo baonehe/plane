@@ -874,5 +874,24 @@
       "short_description": "Xuất sang JSON"
     }
   },
-  "labels_count": "{count, plural, one {# nhãn} other {# nhãn}}"
+  "labels_count": "{count, plural, one {# nhãn} other {# nhãn}}",
+  "ai_chat": {
+    "open": "Mở Plane AI",
+    "subtitle": "Quản lý mục công việc bằng cách trò chuyện",
+    "new_chat": "Cuộc trò chuyện mới",
+    "empty_state": "Hỏi về các mục công việc của bạn, hoặc yêu cầu Plane AI tạo hay thay đổi mục công việc.",
+    "placeholder": "Nhắn cho Plane AI…",
+    "send": "Gửi",
+    "thinking": "Đang suy nghĩ…",
+    "error": "Plane AI không thể phản hồi. Vui lòng thử lại.",
+    "suggestions": {
+      "my_open": "Những mục công việc nào của tôi chưa hoàn thành?",
+      "due_this_week": "Những gì đến hạn trong tuần này?"
+    },
+    "actions": {
+      "created": "Đã tạo",
+      "updated": "Đã cập nhật",
+      "commented": "Đã bình luận"
+    }
+  }
 }

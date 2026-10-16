@@ -874,5 +874,24 @@
       "short_description": "JSON olarak aktar"
     }
   },
-  "labels_count": "{count, plural, one {# etiket} other {# etiket}}"
+  "labels_count": "{count, plural, one {# etiket} other {# etiket}}",
+  "ai_chat": {
+    "open": "Plane AI'ı aç",
+    "subtitle": "İş öğelerini sohbet ederek yönetin",
+    "new_chat": "Yeni sohbet",
+    "empty_state": "İş öğeleriniz hakkında soru sorun veya Plane AI'a neyi oluşturacağını ya da değiştireceğini söyleyin.",
+    "placeholder": "Plane AI'a mesaj yazın…",
+    "send": "Gönder",
+    "thinking": "Düşünüyor…",
+    "error": "Plane AI yanıt veremedi. Lütfen tekrar deneyin.",
+    "suggestions": {
+      "my_open": "Açık iş öğelerim neler?",
+      "due_this_week": "Bu hafta neyin son tarihi var?"
+    },
+    "actions": {
+      "created": "Oluşturuldu",
+      "updated": "Güncellendi",
+      "commented": "Yorum eklendi"
+    }
+  }
 }

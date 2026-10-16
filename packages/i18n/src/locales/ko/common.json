@@ -874,5 +874,24 @@
       "short_description": "JSON으로 내보내기"
     }
   },
-  "labels_count": "{count, plural, one {레이블 #개} other {레이블 #개}}"
+  "labels_count": "{count, plural, one {레이블 #개} other {레이블 #개}}",
+  "ai_chat": {
+    "open": "Plane AI 열기",
+    "subtitle": "채팅으로 작업 항목 관리",
+    "new_chat": "새 채팅",
+    "empty_state": "작업 항목에 대해 질문하거나 Plane AI에 생성하거나 변경할 내용을 알려 주세요.",
+    "placeholder": "Plane AI에 메시지 보내기…",
+    "send": "보내기",
+    "thinking": "생각 중…",
+    "error": "Plane AI가 응답하지 못했습니다. 다시 시도해 주세요.",
+    "suggestions": {
+      "my_open": "아직 완료되지 않은 내 작업 항목은 무엇인가요?",
+      "due_this_week": "이번 주에 마감인 작업 항목은 무엇인가요?"
+    },
+    "actions": {
+      "created": "생성됨",
+      "updated": "업데이트됨",
+      "commented": "댓글 작성됨"
+    }
+  }
 }

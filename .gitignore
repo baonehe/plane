@@ -117,3 +117,7 @@ packages/i18n/src/types/keys.generated.ts
 
 # Local security notes (not for version control)
 /security/
+
+# Local docker overrides and config (machine-specific)
+/docker-compose.override.yml
+/local/

@@ -874,5 +874,24 @@
       "short_description": "Als JSON exportieren"
     }
   },
-  "labels_count": "{count, plural, one {# Label} other {# Labels}}"
+  "labels_count": "{count, plural, one {# Label} other {# Labels}}",
+  "ai_chat": {
+    "open": "Plane AI öffnen",
+    "subtitle": "Arbeitselemente per Chat verwalten",
+    "new_chat": "Neuer Chat",
+    "empty_state": "Stellen Sie Fragen zu Ihren Arbeitselementen oder sagen Sie Plane AI, was erstellt oder geändert werden soll.",
+    "placeholder": "Nachricht an Plane AI…",
+    "send": "Senden",
+    "thinking": "Denkt nach…",
+    "error": "Plane AI konnte nicht antworten. Bitte versuchen Sie es erneut.",
+    "suggestions": {
+      "my_open": "Welche meiner Arbeitselemente sind noch offen?",
+      "due_this_week": "Was ist diese Woche fällig?"
+    },
+    "actions": {
+      "created": "Erstellt",
+      "updated": "Aktualisiert",
+      "commented": "Kommentiert"
+    }
+  }
 }

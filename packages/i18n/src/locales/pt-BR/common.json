@@ -874,5 +874,24 @@
       "short_description": "Exportar como JSON"
     }
   },
-  "labels_count": "{count, plural, one {# etiqueta} many {# etiquetas} other {# etiquetas}}"
+  "labels_count": "{count, plural, one {# etiqueta} many {# etiquetas} other {# etiquetas}}",
+  "ai_chat": {
+    "open": "Abrir Plane AI",
+    "subtitle": "Gerencie itens de trabalho conversando",
+    "new_chat": "Nova conversa",
+    "empty_state": "Pergunte sobre seus itens de trabalho ou diga ao Plane AI o que criar ou alterar.",
+    "placeholder": "Mensagem para o Plane AI…",
+    "send": "Enviar",
+    "thinking": "Pensando…",
+    "error": "O Plane AI não conseguiu responder. Tente novamente.",
+    "suggestions": {
+      "my_open": "Quais são meus itens de trabalho em aberto?",
+      "due_this_week": "O que vence esta semana?"
+    },
+    "actions": {
+      "created": "Criado",
+      "updated": "Atualizado",
+      "commented": "Comentado"
+    }
+  }
 }

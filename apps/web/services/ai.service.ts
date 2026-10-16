@@ -21,6 +21,29 @@ export type TTaskPayload = {
   text_input: string;
 };
 
+export type TAIChatMessage = {
+  role: "user" | "assistant";
+  content: string;
+};
+
+export type TAIChatAction = {
+  action: "created" | "updated" | "commented";
+  id: string;
+  project_id: string;
+  reference: string;
+  name: string;
+};
+
+export type TAIChatResponse = {
+  message: string;
+  actions: TAIChatAction[];
+};
+
+export type TAIChatError = {
+  error?: string;
+  actions?: TAIChatAction[];
+};
+
 export class AIService extends APIService {
   constructor() {
     super(API_BASE_URL);
@@ -31,6 +54,14 @@ export class AIService extends APIService {
       .then((response) => response?.data)
       .catch((error) => {
         throw error?.response;
+      });
+  }
+
+  async chat(workspaceSlug: string, messages: TAIChatMessage[]): Promise<TAIChatResponse> {
+    return this.post(`/api/workspaces/${workspaceSlug}/ai-chat/`, { messages })
+      .then((response) => response?.data)
+      .catch((error) => {
+        throw (error?.response?.data ?? {}) as TAIChatError;
       });
   }
 

@@ -874,5 +874,24 @@
       "short_description": "ექსპორტი json-ად"
     }
   },
-  "labels_count": "{count, plural, one {# იარლიყი} other {# იარლიყი}}"
+  "labels_count": "{count, plural, one {# იარლიყი} other {# იარლიყი}}",
+  "ai_chat": {
+    "open": "Plane AI-ის გახსნა",
+    "subtitle": "სამუშაო ელემენტების მართვა ჩატით",
+    "new_chat": "ახალი ჩატი",
+    "empty_state": "დასვით კითხვა თქვენს სამუშაო ელემენტებზე ან უთხარით Plane AI-ს, რა უნდა შექმნას ან შეცვალოს.",
+    "placeholder": "მისწერეთ Plane AI-ს…",
+    "send": "გაგზავნა",
+    "thinking": "ფიქრობს…",
+    "error": "Plane AI-მ ვერ უპასუხა. გთხოვთ, სცადოთ ხელახლა.",
+    "suggestions": {
+      "my_open": "რომელი სამუშაო ელემენტებია ჩემთვის ღია?",
+      "due_this_week": "რისი ვადა იწურება ამ კვირაში?"
+    },
+    "actions": {
+      "created": "შექმნილია",
+      "updated": "განახლებულია",
+      "commented": "კომენტარი დაემატა"
+    }
+  }
 }

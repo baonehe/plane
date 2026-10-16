@@ -874,5 +874,24 @@
       "short_description": "Exportă ca JSON"
     }
   },
-  "labels_count": "{count, plural, one {# etichetă} few {# etichete} other {# de etichete}}"
+  "labels_count": "{count, plural, one {# etichetă} few {# etichete} other {# de etichete}}",
+  "ai_chat": {
+    "open": "Deschide Plane AI",
+    "subtitle": "Gestionați activitățile prin chat",
+    "new_chat": "Chat nou",
+    "empty_state": "Întrebați despre activitățile dumneavoastră sau spuneți-i lui Plane AI ce să creeze ori să modifice.",
+    "placeholder": "Scrieți-i lui Plane AI…",
+    "send": "Trimite",
+    "thinking": "Se gândește…",
+    "error": "Plane AI nu a putut răspunde. Vă rugăm să încercați din nou.",
+    "suggestions": {
+      "my_open": "Care sunt activitățile mele deschise?",
+      "due_this_week": "Ce are termen săptămâna aceasta?"
+    },
+    "actions": {
+      "created": "Creat",
+      "updated": "Actualizat",
+      "commented": "Comentat"
+    }
+  }
 }

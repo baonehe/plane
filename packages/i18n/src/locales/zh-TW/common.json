@@ -874,5 +874,24 @@
       "short_description": "匯出為 JSON"
     }
   },
-  "labels_count": "{count, plural, one {# 個標籤} other {# 個標籤}}"
+  "labels_count": "{count, plural, one {# 個標籤} other {# 個標籤}}",
+  "ai_chat": {
+    "open": "開啟 Plane AI",
+    "subtitle": "透過聊天管理工作事項",
+    "new_chat": "新對話",
+    "empty_state": "詢問您的工作事項，或告訴 Plane AI 需要建立或變更的內容。",
+    "placeholder": "傳訊息給 Plane AI…",
+    "send": "傳送",
+    "thinking": "思考中…",
+    "error": "Plane AI 無法回應，請再試一次。",
+    "suggestions": {
+      "my_open": "我有哪些未完成的工作事項？",
+      "due_this_week": "本週有哪些工作事項到期？"
+    },
+    "actions": {
+      "created": "已建立",
+      "updated": "已更新",
+      "commented": "已留言"
+    }
+  }
 }

@@ -874,5 +874,24 @@
       "short_description": "Exportovať ako JSON"
     }
   },
-  "labels_count": "{count, plural, one {# štítok} few {# štítky} many {# štítku} other {# štítkov}}"
+  "labels_count": "{count, plural, one {# štítok} few {# štítky} many {# štítku} other {# štítkov}}",
+  "ai_chat": {
+    "open": "Otvoriť Plane AI",
+    "subtitle": "Spravujte pracovné položky pomocou chatu",
+    "new_chat": "Nový chat",
+    "empty_state": "Opýtajte sa na svoje pracovné položky alebo povedzte Plane AI, čo má vytvoriť či zmeniť.",
+    "placeholder": "Napíšte Plane AI…",
+    "send": "Odoslať",
+    "thinking": "Premýšľam…",
+    "error": "Plane AI nemohol odpovedať. Skúste to znova.",
+    "suggestions": {
+      "my_open": "Aké mám otvorené pracovné položky?",
+      "due_this_week": "Čo má termín tento týždeň?"
+    },
+    "actions": {
+      "created": "Vytvorené",
+      "updated": "Aktualizované",
+      "commented": "Okomentované"
+    }
+  }
 }

@@ -874,5 +874,24 @@
       "short_description": "Експортувати як JSON"
     }
   },
-  "labels_count": "{count, plural, one {# мітка} few {# мітки} many {# міток} other {# мітки}}"
+  "labels_count": "{count, plural, one {# мітка} few {# мітки} many {# міток} other {# мітки}}",
+  "ai_chat": {
+    "open": "Відкрити Plane AI",
+    "subtitle": "Керуйте робочими одиницями в чаті",
+    "new_chat": "Новий чат",
+    "empty_state": "Запитайте про свої робочі одиниці або попросіть Plane AI створити чи змінити їх.",
+    "placeholder": "Повідомлення для Plane AI…",
+    "send": "Надіслати",
+    "thinking": "Думаю…",
+    "error": "Plane AI не вдалося відповісти. Спробуйте ще раз.",
+    "suggestions": {
+      "my_open": "Які мої робочі одиниці ще відкриті?",
+      "due_this_week": "У чого крайній термін цього тижня?"
+    },
+    "actions": {
+      "created": "Створено",
+      "updated": "Оновлено",
+      "commented": "Прокоментовано"
+    }
+  }
 }

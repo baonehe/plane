@@ -874,5 +874,24 @@
       "short_description": "Ekspor sebagai json"
     }
   },
-  "labels_count": "{count, plural, one {# label} other {# label}}"
+  "labels_count": "{count, plural, one {# label} other {# label}}",
+  "ai_chat": {
+    "open": "Buka Plane AI",
+    "subtitle": "Kelola item kerja dengan mengobrol",
+    "new_chat": "Obrolan baru",
+    "empty_state": "Tanyakan tentang item kerja Anda, atau beri tahu Plane AI apa yang perlu dibuat atau diubah.",
+    "placeholder": "Kirim pesan ke Plane AI…",
+    "send": "Kirim",
+    "thinking": "Sedang berpikir…",
+    "error": "Plane AI tidak dapat merespons. Silakan coba lagi.",
+    "suggestions": {
+      "my_open": "Apa saja item kerja saya yang masih terbuka?",
+      "due_this_week": "Apa yang jatuh tempo minggu ini?"
+    },
+    "actions": {
+      "created": "Dibuat",
+      "updated": "Diperbarui",
+      "commented": "Dikomentari"
+    }
+  }
 }

@@ -874,5 +874,24 @@
       "short_description": "Экспорт в json"
     }
   },
-  "labels_count": "{count, plural, one {# метка} few {# метки} many {# меток} other {# метки}}"
+  "labels_count": "{count, plural, one {# метка} few {# метки} many {# меток} other {# метки}}",
+  "ai_chat": {
+    "open": "Открыть Plane AI",
+    "subtitle": "Управляйте рабочими элементами в чате",
+    "new_chat": "Новый чат",
+    "empty_state": "Задайте вопрос о своих рабочих элементах или попросите Plane AI создать или изменить их.",
+    "placeholder": "Сообщение для Plane AI…",
+    "send": "Отправить",
+    "thinking": "Думаю…",
+    "error": "Plane AI не удалось ответить. Пожалуйста, попробуйте ещё раз.",
+    "suggestions": {
+      "my_open": "Какие мои рабочие элементы ещё открыты?",
+      "due_this_week": "У чего срок выполнения на этой неделе?"
+    },
+    "actions": {
+      "created": "Создано",
+      "updated": "Обновлено",
+      "commented": "Прокомментировано"
+    }
+  }
 }

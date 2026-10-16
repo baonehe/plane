@@ -874,5 +874,24 @@
       "short_description": "Exporter en json"
     }
   },
-  "labels_count": "{count, plural, one {# étiquette} many {# étiquettes} other {# étiquettes}}"
+  "labels_count": "{count, plural, one {# étiquette} many {# étiquettes} other {# étiquettes}}",
+  "ai_chat": {
+    "open": "Ouvrir Plane AI",
+    "subtitle": "Gérez vos éléments de travail en discutant",
+    "new_chat": "Nouvelle conversation",
+    "empty_state": "Posez des questions sur vos éléments de travail ou indiquez à Plane AI ce qu’il faut créer ou modifier.",
+    "placeholder": "Écrire à Plane AI…",
+    "send": "Envoyer",
+    "thinking": "Réflexion…",
+    "error": "Plane AI n’a pas pu répondre. Veuillez réessayer.",
+    "suggestions": {
+      "my_open": "Quels sont mes éléments de travail en cours ?",
+      "due_this_week": "Qu’est-ce qui arrive à échéance cette semaine ?"
+    },
+    "actions": {
+      "created": "Créé",
+      "updated": "Mis à jour",
+      "commented": "Commenté"
+    }
+  }
 }
